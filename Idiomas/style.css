@@ -1,0 +1,53 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+#bandeiras {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#bandeiras img {
+    width: 50px;
+    height: auto;
+    margin: 0 10px;
+    cursor: pointer;
+    border: 2px solid #3498db;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+}
+
+#bandeiras img:hover {
+    transform: scale(1.1);
+}
+
+.conteudo {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#paragrafo1 {
+    border: 2px solid #3498db;
+}
+
+#paragrafo2 {
+    border: 2px solid #e74c3c;
+}
+
+#paragrafo3 {
+    border: 2px solid #2ecc71;
+}
+
+#paragrafo4 {
+    border: 2px solid #f39c12;
+}
+
+#paragrafo5 {
+    border: 2px solid #9b59b6;
+}
